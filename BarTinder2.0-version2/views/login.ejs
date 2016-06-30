@@ -1,0 +1,27 @@
+      <% include ./partials/header %>
+
+      <div class="container-fluid">
+         <div class="venue_stats login">
+            <h2 class="page_title">Login:</h2>
+            <p style="color: white"><%= login_response %></p>
+            <br>
+            <form class="login_form" name="login_form" action="/authenticate" method="POST">
+               <input class="input_box" type="text" id="name" name="name" placeholder="User Name...">
+               <br><br>
+               <input class="input_box" type="password" id="password" name="password" placeholder="Password...">
+
+               <br><br>
+               <nav class="navbar navbar-default navbar-fixed-bottom">
+                  <div class="footbox">
+                     <input class="submit-btn" type="submit" name="submit" value="Login">
+                  </div>
+               </nav>
+            </form>
+         </div>
+      </div>
+
+   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script src="/javascripts/js.cookie.js"></script>
+   <script src="/javascripts/login.js"></script>
+   </body>
+</html>

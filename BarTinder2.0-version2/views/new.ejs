@@ -1,0 +1,34 @@
+      <% include ./partials/header %>
+
+      <div class="container-fluid">
+         <div class="venue_stats new_admin">
+            <h2 class="page_title"><%= venue_response %></h2>
+            <br>
+            <form class="new_venue_form" name="new_venue_form" action="/new_venue" method="POST">
+               <input type="text" name="name" placeholder="Venue Name...">
+               <br><br>
+               <input type="text" name="location" placeholder="Venue Location...">
+               <br><br>
+               <input type="text" name="hours" placeholder="Hours of Operation...">
+               <br><br>
+               <input type="text" name="logo_url" placeholder="Logo URL...">
+               <br><br>
+               <input type="text" name="website_url" placeholder="Website URL...">
+               <br><br>
+               <input type="number" name="capacity" placeholder="Capacity...">
+               <br><br>
+               <input style="display: none" type="text" name="comment" value="Come on in!" >
+               <input style="display: none" type="number" name="patron_number" value = "0">
+               <nav class="navbar navbar-default navbar-fixed-bottom">
+                  <div class="footbox">
+                     <input class="submit-btn" type="submit" name="submit" value="Submit">
+                  </div>
+               </nav>
+            </form>
+         </div>
+      </div>
+
+   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script src="/javascripts/new.js"></script>
+   </body>
+</html>

@@ -1,0 +1,34 @@
+		<% include ./partials/header %>
+
+			<!-- Possible modal for the bar information -->
+
+			<h2 class="venue_name" id="venue_info"></h2>
+				<!-- name will be appended by ajax call -->
+			<div class="view_counter fill container-fluid">
+				<!-- Had to put these styles inline because the url squid tag would not pull in through the css -->
+				<!-- The styles will be appended by ajax call -->
+				<div class='patron_number'>
+					<!-- This div is for the disco ball gif -->
+				</div>
+			</div>
+
+			<div class="comment_box container-fluid">
+				<!-- comments will be appended by ajax call -->
+			</div>
+
+			<div id="pat_num" >
+				<!-- patron number / capacity will be appended by ajax call -->
+			</div>
+
+			<nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="footbox">
+	    		<button type="button" name="arrow" id="backward_button" class="arrow_btn btn btn-default btn-lg">
+						<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Back</button>
+	    		<button type="button" id="forward_button" class="arrow_btn btn btn-default btn-lg" name="arrow">
+						Next <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button>
+      	</div>
+	   	</nav>
+   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script src="/javascripts/home.js"></script>
+   </body>
+</html>

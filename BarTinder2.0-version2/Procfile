@@ -1,0 +1,1 @@
+node: nodemon bin/www

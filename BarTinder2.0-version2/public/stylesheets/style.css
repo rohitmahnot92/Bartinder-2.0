@@ -1,0 +1,418 @@
+/********
+GENERAL
+********/
+
+body {
+	background-image: url("../images/brick.jpg");
+	background-size: 175%;
+/*	background-image: url("../images/grey.jpg");
+	background-size: 330%;
+	background-repeat: no-repeat;*/
+	/*background-color: #606060;*/
+}
+
+.navbar {
+	background-color: black;
+	height: 82px;
+}
+
+.page_title {
+	color: white;
+	font-weight: 300;
+	font-family: 'Comfortaa', cursive;
+	text-decoration: underline;
+	font-size: 34px;
+}
+
+textarea {
+	resize: none;
+}
+
+.input_box {
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+}
+
+
+
+/********
+NAVHEADER
+********/
+
+.logo {
+	width: 40px;
+	height: 40px;
+	margin-right: 2px;
+	margin-top: -15px;
+}
+
+.nav_header {
+	text-align: center;
+	color: white;
+}
+
+.bar {
+	text-align: center;
+	font-size: 42px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+}
+
+.tinder {
+	text-align: center;
+	font-size: 42px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 300;
+	color: #999;
+}
+
+.navbox {
+	padding-top: 8px;
+	padding-right: 8px;
+	font-size: 8px;
+}
+
+.navlink {
+	color: white;
+	font-family: 'Comfortaa', cursive;
+	float: right;
+	margin-right: 5%;
+}
+
+#admin {
+	color: black;
+}
+
+
+
+/********
+INDEX(VIEW)
+********/
+
+h3 {
+	margin-top: 0px;
+}
+
+.about_img {
+   width: 140px;
+   height: auto;
+}
+
+h4 {
+	text-decoration: underline;
+}
+
+.index {
+   color: #8C7252;
+   text-align: center;
+   display: block;
+  	position: relative;
+  	background-color: black;
+  	opacity: .8;
+  	margin-top: 58px;
+  	margin-bottom: 58px;
+}
+
+.about_info {
+	color: white;
+}
+
+/********
+NEW(VIEW)
+********/
+
+.new_admin {
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 100px;
+}
+
+input {
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+
+
+/********
+REGISTER(VIEW)
+********/
+
+.register {
+	text-align: center;
+	margin-top: 160px;
+	margin-bottom: 100px;
+}
+
+.venue_drop {
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+	margin-right: 4px;
+	font-size: 16px;
+}
+
+
+
+/********
+LOGIN(VIEW)
+********/
+
+.login {
+	text-align: center;
+	margin-top: 180px;
+	margin-bottom: 100px;
+	font-size: 18px;
+}
+
+
+
+/********
+CLICKER(VIEW)
+********/
+
+.clicker_box {
+	padding-left: 30px;
+	margin-top: 55px;
+}
+
+#clicker_name {
+	margin-top: 110px;
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	font-family: 'Comfortaa', cursive;
+	font-size: 28px;
+}
+
+#total_span {
+	font-size: 16px;
+	color: white;
+	margin-top: 30px;
+	opacity: 0.7;
+}
+
+.total_entrants {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	opacity: 0.8;
+	margin-top: 40px;
+	width: 60px;
+	height: 30px;
+	border-radius: 5px;
+	border: 2px solid white;
+}
+
+#reset_button {
+	background-color: #303030;
+	opacity: 0.8;
+	color: white;
+	font-size: 16px;
+	margin-top: 10px;
+	padding-right: 5px;
+	border-radius: 5px;
+	border: 1px solid #404040;
+}
+
+#response_header {
+	text-align: center;
+	color: beige;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.minus, .plus {
+	width: 75px;
+	height: 100px;
+	font-size: 42px;
+}
+
+.minus {
+	background-color: red;
+}
+
+.plus	{
+	background-color: green;
+}
+
+.counter1 {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	width: 80px;
+	height: 50px;
+	padding-top: 6px;
+	padding-right: 17px;
+	margin-top: 28px;
+	border-radius: 5px;
+	border: 2px solid white;
+}
+
+.change_comment {
+	background-color: black;
+	width: 180px;
+	height: 75px;
+	border: 3px solid white;
+	font-family: 'Comfortaa', cursive;
+	font-size: 16px;
+	color: white;
+	opacity: .7;
+	margin-top: 47px;
+   margin-left: 70px;
+}
+
+.comment-submit-btn {
+	border-radius: 5px;
+	background-color: white;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 700;
+	font-size: 20px;
+	width: 200px;
+	height: 48px;
+}
+
+
+
+/********
+HOME(VIEW)
+********/
+
+.venue_name {
+	margin-top: 110px;
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 300;
+	color: white;
+}
+
+ul {
+	padding-top: 5px;
+}
+
+li {
+	font-size: 12px;
+	list-style: none;
+	text-align: left;
+	padding-left: 24px;
+}
+
+.info {
+	font-size: 12px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+/* Some styles had to be put inline in the home.ejs because the image url's would not pull into through this css file*/
+
+.view_counter {
+	width: 180px;
+	height: 180px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 25px;
+	margin-bottom: 175px;
+	border: 3px solid white;
+	text-align: center;
+	color: #00FFFFFF;
+	font-family: 'Limelight';
+	font-size: 45px;
+	font-weight: bold;
+	display: block;
+  	position: relative;
+}
+
+.comment_box {
+	background-color: black;
+	width: 180px;
+	height: 75px;
+	border: 3px solid white;
+	margin-top: -175px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 16px;
+	color: white;
+	opacity: .7;
+}
+
+.arrow_btn {
+	border-radius: 5px;
+	background-color: white;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 700;
+	font-size: 20px;
+	width: 120px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#pat_num {
+	font-family: 'Limelight', cursive;
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 1px white;
+	margin-bottom: -15px;
+}
+
+#disco {
+
+	/* -webkit-animation-duration: 1s;
+	 width: 174px;*/
+
+	 -webkit-animation-duration: 1s;
+	 width: 176px;
+	 height: 180px;
+	 position: relative;
+	 top: -24px;
+	 left: -1px;
+}
+
+/*#disco_out {
+
+	/* -webkit-animation-duration: 1s;
+	 width: 174px;*/
+	/* box-shadow: 0 0 1px rgba(0,0,0, 0.05);
+	 -webkit-animation-duration: 2s;
+	 -webkit-backface-visibility: hidden;
+	 width: 176px;
+	 height: 180px;
+	 position: relative;
+	 top: -24px;
+	 left: -1px;*/
+/*}*/
+
+
+
+
+/********
+NAVFOOTER
+********/
+
+.footbox {
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 26px;
+}
+
+.submit-btn {
+	border-radius: 5px;
+	background-color: white;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 700;
+	font-size: 20px;
+	width: 120px;
+	height: 48px;
+}
+
+
+
+
